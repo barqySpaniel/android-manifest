@@ -28,12 +28,12 @@
   <!-- Boundary Devices kernel and U-Boot -->
   <project path="vendor/boundary/arm-trusted-firmware" name="imx-atf" remote="boundary-github" revision="boundary-lf-5.15.71-2.2.0" />
   <project path="vendor/boundary/uboot-imx" name="u-boot" remote="boundary-github" revision="boundary-v2022.04" />
-  <project path="vendor/boundary/kernel_imx" name="linux" remote="boundary-github" revision="boundary-android-13.0.0_1.0.0-pass1" />
+  <project path="vendor/boundary/kernel_imx" name="linux" remote="boundary-github" revision="boundary-android-13.0.0_1.0.0" />
   <project path="vendor/boundary/qcacld-2.0" name="qcacld-2.0" remote="boundary-github" revision="boundary-CNSS.LEA.NRT_3.1" />
   <project path="vendor/boundary/qca-firmware" name="qca-firmware" remote="boundary-github" revision="bd-sdmac-qcacld-lea-3.0" />
 
   <!-- Boundary Devices machine layer -->
-  <project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="boundary-android-13.0.0_1.0.0-pass1" >
+  <project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="boundary-android-13.0.0_1.0.0" >
     <linkfile src="common/tools/imx-make.sh" dest="imx-make.sh" />
   </project>
 
